@@ -37,7 +37,7 @@ img {
 
 h1 {
   font-family: myfont;
-  font-size: 2rem;
+  font-size: 3vmin;
   animation:blink 2s linear infinite;
 }
 
@@ -68,16 +68,5 @@ h1 {
   }
   100% {
     background-position: 0% 50%;
-  }
-}
-
-@media (max-width: 600px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-}
-@media (max-width: 450px) {
-  h1 {
-    font-size: 1rem;
   }
 }
